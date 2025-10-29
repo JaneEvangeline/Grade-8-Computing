@@ -1,0 +1,88 @@
+/* Basic styling for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #ebbfdd;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.navbar a:hover {
+    background-color: #f9c3ee;
+}
+
+/* Main Content */
+.content {
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #e395d9;
+    text-align: center;
+}
+
+/* Form Styling */
+.form-section {
+    background-color: rgb(236, 179, 212);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(226, 171, 199, 0.993);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #eeb7df;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #f7cee7;
+    color: rgb(218, 115, 196);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #be7bb4;
+}
+
+/* Footer */
+.footer {
+    background-color: #edbae1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
